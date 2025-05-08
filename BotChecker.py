@@ -1201,7 +1201,7 @@ def check_single_card_command(message):
     user_id = message.from_user.id
     allowed_users = load_allowed_users()
     if str(user_id) not in allowed_users:
-        bot.send_message(message.chat.id, "🚫 𝐘𝐨𝐮 𝐜𝐚𝐧𝐧𝐨𝐭 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐭𝐨 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬 𝐭𝐨 𝐩𝐮𝐫𝐜𝐡𝐚𝐬𝐞 𝐚 𝐛𝐨𝐭 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 @GOKUOFFICIALREAL_BOT")
+        bot.send_message(message.chat.id, "🚫 𝐘𝐨𝐮 𝐜𝐚𝐧𝐧𝐨𝐭 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐭𝐨 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬 𝐭𝐨 𝐩𝐮𝐫𝐜𝐡𝐚𝐬𝐞 𝐚 𝐛𝐨𝐭 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 @Awmtee")
         time.sleep(0.1)
         return
     if not is_user_subscribed(user_id) and str(user_id) not in admin_ids:
@@ -1226,7 +1226,7 @@ def main(message):
     user_id = message.from_user.id
     allowed_users = load_allowed_users()
     if str(user_id) not in allowed_users:
-        bot.send_message(message.chat.id, "🚫 𝐘𝐨𝐮 𝐜𝐚𝐧𝐧𝐨𝐭 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐭𝐨 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬 𝐭𝐨 𝐩𝐮𝐫𝐜𝐡𝐚𝐬𝐞 𝐚 𝐛𝐨𝐭 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 @GOKUOFFICIALREAL_BOT")
+        bot.send_message(message.chat.id, "🚫 𝐘𝐨𝐮 𝐜𝐚𝐧𝐧𝐨𝐭 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐭𝐨 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬 𝐭𝐨 𝐩𝐮𝐫𝐜𝐡𝐚𝐬𝐞 𝐚 𝐛𝐨𝐭 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 @Awmtee")
         time.sleep(0.1)
     if not is_user_subscribed(user_id) and str(user_id) not in admin_ids:
         bot.send_message(message.chat.id, "🚫 Your subscription has expired or you don't have an active plan. Use /redeem to activate a plan.")
@@ -1254,7 +1254,7 @@ def main(message):
                     current_dir = os.getcwd()
                     for filename in os.listdir(current_dir):
                         if filename.endswith(".stop"):
-                            bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text='𝗦𝗧𝗢𝗣𝗣𝗘𝗗 ✅\n𝗕𝗢𝗧 𝗕𝗬 ➜ @GOKUOFFICIALREAL_BOT')
+                            bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text='𝗦𝗧𝗢𝗣𝗣𝗘𝗗 ✅\n𝗕𝗢𝗧 𝗕𝗬 ➜ @Awmtee')
                             time.sleep(2)
                             try:
                                 os.remove('stop.stop')
@@ -1321,7 +1321,7 @@ def main(message):
                     end_time = time.time()
                     execution_time = end_time - start_time
                     bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text='''𝐖𝐚𝐢𝐭 𝐟𝐨𝐫 𝐩𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠
-𝐁𝐲 ➜ <a href='https://t.me/+bkxW-_IANZQ3YjY1'>Goku </a> ''', reply_markup=mes)
+𝐁𝐲 ➜ <a href='https://t.me/Awmtee'>Awmtee </a> ''', reply_markup=mes)
                     time.sleep(2)
                     msg = f'''
 <a href='https://envs.sh/smD.webp'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
@@ -1335,7 +1335,7 @@ def main(message):
 <a href='https://t.me/+bkxW-_IANZQ3YjY1'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
 <a href='https://t.me/+bkxW-_IANZQ3YjY1'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code>
-<a href='https://t.me/+bkxW-_IANZQ3YjY1'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='https://t.me/+bkxW-_IANZQ3YjY1'>Goku </a>'''
+<a href='https://t.me/+bkxW-_IANZQ3YjY1'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='https://t.me/Awmtee'>Awmtee </a>'''
                     print(last)
                     if 'success' in last or '𝗖𝗛𝗔𝗥𝗚𝗘𝗗💰' in last or 'APPROVED ✅' in last or 'APPROVED ✅' in last or "Your card's security code is invalid." in last:
                         live += 1
@@ -1379,7 +1379,7 @@ def main(message):
 <a href='https://t.me/+bkxW-_IANZQ3YjY1'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
 <a href='https://t.me/+bkxW-_IANZQ3YjY1'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code>
-<a href='https://t.me/+bkxW-_IANZQ3YjY1'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='https://t.me/+bkxW-_IANZQ3YjY1'>Goku </a>'''
+<a href='https://t.me/+bkxW-_IANZQ3YjY1'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='https://t.me/Awmtee'>Awmtee </a>'''
                         live += 1
                         bot.reply_to(message, msg)
                         time.sleep(2)
@@ -1392,7 +1392,7 @@ def main(message):
                     time.sleep(1)
     except Exception as e:
         print(e)
-        bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text='𝗕𝗘𝗘𝗡 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘𝗗 ✅\n𝗕𝗢𝗧 𝗕𝗬 ➜ @GOKUOFFICIALREAL_BOT')
+        bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text='𝗕𝗘𝗘𝗡 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘𝗗 ✅\n𝗕𝗢𝗧 𝗕𝗬 ➜ @Awmtee')
         time.sleep(2)
 
 @bot.callback_query_handler(func=lambda call: call.data == 'stop')
@@ -1645,7 +1645,7 @@ def fake_command(message):
     user_id = str(message.from_user.id)
     allowed_users = load_allowed_users()
     if str(user_id) not in allowed_users:
-        bot.send_message(message.chat.id, "🚫 𝐘𝐨𝐮 𝐜𝐚𝐧𝐧𝐨𝐭 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐭𝐨 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬 𝐭𝐨 𝐩𝐮𝐫𝐜𝐡𝐚𝐬𝐞 𝐚 𝐛𝐨𝐭 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 @GOKUOFFICIALREAL_BOT")
+        bot.send_message(message.chat.id, "🚫 𝐘𝐨𝐮 𝐜𝐚𝐧𝐧𝐨𝐭 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐭𝐨 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬 𝐭𝐨 𝐩𝐮𝐫𝐜𝐡𝐚𝐬𝐞 𝐚 𝐛𝐨𝐭 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 @Awmtee")
         return
     if not is_user_subscribed(user_id) and str(user_id) not in admin_ids:
         bot.send_message(message.chat.id, "🚫 Your subscription has expired or you don't have an active plan. Use /redeem to activate a plan.")
@@ -1686,7 +1686,7 @@ def id_command(message):
     user_id = str(message.from_user.id)
     allowed_users = load_allowed_users()
     if str(user_id) not in allowed_users:
-        bot.send_message(message.chat.id, "🚫 𝐘𝐨𝐮 𝐜𝐚𝐧𝐧𝐨𝐭 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐭𝐨 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬 𝐭𝐨 𝐩𝐮𝐫𝐜𝐡𝐚𝐬𝐞 𝐚 𝐛𝐨𝐭 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 @GOKUOFFICIALREAL_BOT")
+        bot.send_message(message.chat.id, "🚫 𝐘𝐨𝐮 𝐜𝐚𝐧𝐧𝐨𝐭 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐭𝐨 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬 𝐭𝐨 𝐩𝐮𝐫𝐜𝐡𝐚𝐬𝐞 𝐚 𝐛𝐨𝐭 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 @Awmtee")
         return
     if not is_user_subscribed(user_id) and str(user_id) not in admin_ids:
         bot.send_message(message.chat.id, "🚫 Your subscription has expired or you don't have an active plan. Use /redeem to activate a plan.")
