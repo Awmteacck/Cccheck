@@ -13,9 +13,9 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 from faker import Faker
 
-BOT_TOKEN = "7771291324:AAEnBnYqvvwB4mkr95eqTCTozBk1uAIAbe0"
-SUBSCRIBER_ID = ["8103685479"]
-ADMIN_USER_IDS = ["8103685479"]
+BOT_TOKEN = "7175703585:AAG-MyrcQ4623qPoB6KjKI8UGj35r0pxOes"
+SUBSCRIBER_ID = ["7237320756"]
+ADMIN_USER_IDS = ["7237320756"]
 ALLOWED_USERS_FILE = 'allowed_users.json'
 USER_PLANS_FILE = 'user_plans.json'
 REDEEM_CODES_FILE = 'redeem_codes.json'
@@ -1740,7 +1740,7 @@ def document_handler(message):
     main(message)
 
 
-logop = f'''━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━bot by @GOKUOFFICIALREAL_BOT started sucessfully ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+logop = f'''━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━bot by @Awmtebot started sucessfully ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 '''
 print(logop)
 bot.polling()
